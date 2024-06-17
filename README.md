@@ -55,6 +55,10 @@ yarn ios
 ### Obtain the model
 You can search HuggingFace for available models [Keyword: GGUF](https://huggingface.co/search/full-text?q=GGUF&type=model).
 𝐏𝐡𝐢-3-𝐌𝐢𝐧𝐢-4𝐊-𝐈𝐧𝐬𝐭𝐫𝐮𝐜𝐭 Microsoft confirming the model's capability to run on mobile devices 
+<p>
+   <img src="https://github.com/graphtobinary/RN-llm/blob/master/gguf.jpeg" width="300" />
+   <img src="https://github.com/graphtobinary/RN-llm/blob/master/gguf2.png" width="300" />
+</p>
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
