@@ -30,17 +30,31 @@ npm run android
 
 # OR using Yarn
 yarn android
+
+# Add proguard rule if it's enabled in project (android/app/proguard-rules.pro):
+   # llama.rn
+   -keep class com.rnllama.** { *; }
 ```
 
 ### For iOS
 
 ```bash
+# install pods 
+npx pod-install
+
 # using npm
 npm run ios
 
 # OR using Yarn
 yarn ios
 ```
+### React Native binding of llama.cpp.
+
+### llama.cpp: Inference of LLaMA model in pure C/C++
+
+### Obtain the model
+You can search HuggingFace for available models [Keyword: GGUF](https://huggingface.co/search/full-text?q=GGUF&type=model).
+𝐏𝐡𝐢-3-𝐌𝐢𝐧𝐢-4𝐊-𝐈𝐧𝐬𝐭𝐫𝐮𝐜𝐭 Microsoft confirming the model's capability to run on mobile devices 
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
